@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adi Burgić — Portfolio</title>
+  <meta name="description" content="Adi Burgić — Computer Science student. Web development and AI automation." />
+
+  <!-- Google Fonts: Space Grotesk for headings, IBM Plex Sans for body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ========== NAV ========== -->
+  <header class="nav" id="top">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand">Adi Burgić</a>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <h1 class="hero__name">Adi Burgić</h1>
+        <p class="hero__tagline">Computer Science student · Web &amp; AI automation</p>
+        <p class="hero__status">Finishing my BSc · Open to full-time roles</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="Adi_Burgic_CV_ENG_v2.pdf" download>Download CV</a>
+          <a class="btn btn--secondary" href="#contact">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__heading">About</h2>
+        <p class="about__text">
+          I'm a Computer Science student in Novo Mesto, Slovenia, currently finishing my bachelor's thesis.
+          Along the way I've picked up hands-on experience in corporate communication, front-end web development,
+          and AI-driven automation — most recently at Revoz d.d. (Renault Group), where I contributed to large
+          international projects. I like using AI tools to solve problems quickly and turn ideas into finished,
+          polished deliverables. I'm fluent in English, Bosnian, and Slovenian.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE ========== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section__heading">Experience</h2>
+
+        <ol class="timeline">
+
+          <!-- Revoz — the highlight, so it gets the richest, most detailed entry -->
+          <li class="timeline__item timeline__item--highlight">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <div class="timeline__card timeline__card--highlight">
+              <div class="timeline__head">
+                <div>
+                  <h3 class="timeline__role">Communication &amp; Public Affairs Assistant</h3>
+                  <p class="timeline__org">Revoz d.d. (Renault Group) — Novo Mesto, Slovenia</p>
+                </div>
+                <p class="timeline__dates">Feb 2026 – Sep 2026</p>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Designed visuals and materials for large international projects and high-level visits: the launches of the new Dacia Spring and Nissan Pixo, a plant visit by Dacia CEO Katrin Adt, an international Suppliers Meeting with a delegation from China, and a French delegation visit, for which I created a dedicated booklet.</li>
+                <li>Helped organize international media test-drive events for automotive journalists.</li>
+                <li>Used generative AI tools to draft communication posts in Slovenian, English, and French, speeding up publishing across channels.</li>
+                <li>Built a reusable template for the Info Flash, a bi-weekly summary report for heads of departments, making each edition faster and more consistent to produce.</li>
+                <li>Worked cross-functionally with other departments, including creating an AI-assisted slide visual for a Renault Group colleague in France.</li>
+                <li>Created visual content for internal channels (digital screens, the Inside'R app, LinkedIn), plus videos and PowerPoint presentations using Canva, CapCut, and AI tools.</li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- Fiverr — shorter entry -->
+          <li class="timeline__item">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <div class="timeline__card">
+              <div class="timeline__head">
+                <div>
+                  <h3 class="timeline__role">Freelance Digital Creator</h3>
+                  <p class="timeline__org">Fiverr — Remote</p>
+                </div>
+                <p class="timeline__dates">2021 – Present</p>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Completed 50+ freelance projects for international clients across logo design, video editing, and front-end web development, maintaining a 4.9/5 average rating.</li>
+                <li>Built responsive landing pages and simple websites using HTML/CSS for small businesses and personal brands.</li>
+                <li>Communicated with clients in English, met tight deadlines, and managed multiple orders simultaneously.</li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- Avtohiša Velkavrh — shorter entry -->
+          <li class="timeline__item">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <div class="timeline__card">
+              <div class="timeline__head">
+                <div>
+                  <h3 class="timeline__role">Digital Content &amp; Systems Assistant</h3>
+                  <p class="timeline__org">Avtohiša Velkavrh — Slovenia</p>
+                </div>
+                <p class="timeline__dates">Jan 2021 &amp; Feb 2022</p>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Helped streamline internal communication and inventory management using Excel and basic scripts.</li>
+                <li>Produced social media content and short promotional videos using Canva and CapCut, boosting engagement by 30%.</li>
+                <li>Assisted with website updates using HTML/CSS and collaborated with the marketing team on outreach ideas.</li>
+              </ul>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- ========== EDUCATION ========== -->
+    <section class="section" id="education">
+      <div class="container">
+        <h2 class="section__heading">Education</h2>
+
+        <ol class="timeline">
+          <li class="timeline__item">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <div class="timeline__card">
+              <div class="timeline__head">
+                <div>
+                  <h3 class="timeline__role">BSc in Computer Science (Thesis in Progress)</h3>
+                  <p class="timeline__org">Fakulteta za informatiko in računalništvo, Novo mesto</p>
+                </div>
+                <p class="timeline__dates">2023 – Present</p>
+              </div>
+              <ul class="timeline__bullets">
+                <li>Completed all three years of study; only the bachelor's thesis remains.</li>
+                <li>Focus: Web development, Programming, Databases, Networks.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section__heading">Projects</h2>
+        <p class="section__intro">Something I'm currently building.</p>
+
+        <div class="projects">
+          <article class="project-card">
+            <span class="project-card__badge">In progress</span>
+            <h3 class="project-card__title">Multilingual Post Generator</h3>
+            <p class="project-card__desc">An AI tool that turns one post into Slovenian, English, and French versions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section__heading">Skills</h2>
+
+        <div class="skills">
+          <div class="skills__group">
+            <h3 class="skills__label">AI &amp; Automation</h3>
+            <ul class="skills__list">
+              <li>ChatGPT</li>
+              <li>Claude</li>
+              <li>Microsoft Copilot</li>
+              <li>AI-assisted development</li>
+              <li>Prompt design</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <h3 class="skills__label">Web</h3>
+            <ul class="skills__list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SQL</li>
+              <li>JavaScript (basic)</li>
+              <li>Python (basic)</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <h3 class="skills__label">Media &amp; Design</h3>
+            <ul class="skills__list">
+              <li>Canva</li>
+              <li>Adobe Premiere Pro</li>
+              <li>CapCut</li>
+              <li>Photoshop</li>
+              <li>Lightroom</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="skills__languages">
+          <h3 class="skills__label">Languages</h3>
+          <span class="skills__lang-item"><span>Bosnian / Serbian / Croatian</span><span class="skills__level">Native</span></span>
+          <span class="skills__lang-item"><span>Slovenian</span><span class="skills__level">Fluent</span></span>
+          <span class="skills__lang-item"><span>English</span><span class="skills__level">Fluent</span></span>
+          <span class="skills__lang-item"><span>Japanese</span><span class="skills__level">Basic–Intermediate</span></span>
+          <span class="skills__lang-item"><span>German</span><span class="skills__level">Basic–Intermediate</span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section__heading">Contact</h2>
+        <p class="section__intro">Feel free to reach out — I'm happy to talk about web development, AI automation, or new opportunities.</p>
+
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:adiburgic@gmail.com">
+            <span class="contact-link__label">Email</span>
+            <span class="contact-link__value">adiburgic@gmail.com</span>
+          </a>
+          <a class="contact-link" href="http://www.linkedin.com/in/adi-burgi%C4%87" target="_blank" rel="noopener noreferrer">
+            <span class="contact-link__label">LinkedIn</span>
+            <span class="contact-link__value">linkedin.com/in/adi-burgić</span>
+          </a>
+          <!-- TODO: replace "#" with your GitHub profile URL once it's ready -->
+          <a class="contact-link" href="#">
+            <span class="contact-link__label">GitHub</span>
+            <span class="contact-link__value">Add link soon</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> Adi Burgić</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
