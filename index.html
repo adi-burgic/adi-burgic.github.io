@@ -169,13 +169,25 @@
     <section class="section" id="projects">
       <div class="container">
         <h2 class="section__heading">Projects</h2>
-        <p class="section__intro">Something I'm currently building.</p>
+        <p class="section__intro">Things I've built and shipped.</p>
 
         <div class="projects">
+          <!-- Finished project: the card lifts on hover and when a link inside it has keyboard focus -->
           <article class="project-card">
-            <span class="project-card__badge">In progress</span>
+            <span class="project-card__badge project-card__badge--live">Live</span>
             <h3 class="project-card__title">Multilingual Post Generator</h3>
-            <p class="project-card__desc">An AI tool that turns one post into Slovenian, English, and French versions.</p>
+            <p class="project-card__desc">AI tool that adapts one post into Slovenian, English and French in one click, with tone and channel options (LinkedIn, internal screen, general). Built from a real need at my job at Revoz.</p>
+
+            <ul class="project-card__tags" aria-label="Built with">
+              <li>HTML/CSS/JS</li>
+              <li>Vercel serverless</li>
+              <li>Groq API</li>
+            </ul>
+
+            <div class="project-card__links">
+              <a class="btn btn--primary btn--small" href="https://multilingual-post-generator.vercel.app" target="_blank" rel="noopener noreferrer">Live demo</a>
+              <a class="btn btn--secondary btn--small" href="https://github.com/adi-burgic/multilingual-post-generator" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
           </article>
         </div>
       </div>
